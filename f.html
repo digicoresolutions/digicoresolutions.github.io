@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+
+    <main>
+        <!-- Your page content goes here -->
+        <h2>This is the Home Page</h2>
+        <p>Welcome to our static website!</p>
+    </main>
+
+    <div id="footer"></div>
+
+    <script>
+        // Use jQuery to load the header and footer into the respective divs
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</body>
+</html>
